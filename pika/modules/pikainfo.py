@@ -241,7 +241,7 @@ class PikaInfoMod(loader.Module):
     @loader.command(
         ru_doc="Отправить информацию по типу 'Что такое Pika?'",
     )
-    async def whonetfoll(self, message: Message):
+    async def whopika(self, message: Message):
         """Send info aka 'What is Pika?'"""
         await utils.answer(message, self.strings("desc"))
 
