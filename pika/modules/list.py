@@ -34,9 +34,8 @@ class ListMod(loader.Module):
 
     @loader.command(
         ru_doc="Показать все установленные модули",
-        ua_doc="Показати всі встановлені модулі",
     )
-    async def modscmd(self, message):
+    async def listcmd(self, message):
         """- List of all of the modules currently installed"""
 
         prefix = f"{self.strings('cmd').format(str(self.get_prefix()))}\n"
