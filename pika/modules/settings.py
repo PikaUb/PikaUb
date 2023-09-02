@@ -225,8 +225,8 @@ class CoreMod(loader.Module):
     @loader.command(
         ru_doc="Показать версию Pika",
     )
-    async def netfollcmd(self, message: Message):
-        """Get Netfoll version"""
+    async def pikacmd(self, message: Message):
+        """Get Pika version"""
         await utils.answer_file(
             message,
             "https://github.com/PikaUb/PikaUb/raw/main/assets/banner.png",
